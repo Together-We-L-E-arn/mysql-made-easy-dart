@@ -1,22 +1,10 @@
-A library for Dart developers.
-
-Created from templates made available by Stagehand under a BSD-style
-[license](https://github.com/dart-lang/stagehand/blob/master/LICENSE).
-
-## Usage
-
-A simple usage example:
-
-```dart
-import 'package:easy_way_mysql/easy_way_mysql.dart';
-
-main() {
-  var awesome = new Awesome();
-}
-```
+#mysql-made-easy-dart
+A library for Dart developers extended from mysql1 package to simplify mysql1 package itself.
 
 ## Features and bugs
 
 Please file feature requests and bugs at the [issue tracker][tracker].
 
-[tracker]: http://example.com/issues/replaceme
+<hr>
+### Engineered By Jaskirat Singh Grewal (@CrashRootA12) in Dart Lang.
+[tracker]: https://github.com/CrashRootA12/mysql-made-easy-dart/issues
