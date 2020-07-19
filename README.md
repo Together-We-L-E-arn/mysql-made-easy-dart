@@ -1,4 +1,4 @@
-#mysql-made-easy-dart
+# mysql-made-easy-dart
 A library for Dart developers extended from mysql1 package to simplify mysql1 package itself.
 
 ## Features and bugs

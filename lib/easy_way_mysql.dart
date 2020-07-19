@@ -18,5 +18,6 @@ class EasyWay {
     return connection;
   }
   
+
 }
 
