@@ -5,11 +5,14 @@ library easy_way_mysql;
 
 import 'package:mysql1/mysql1.dart';
 
-void main() {}
+void main() async {
+  
+}
 
-class EasyWay {
- dynamic connection;
-  Future<MySqlConnection> createConnection(
+class MinifiedMySQLConnector {
+   dynamic connection;
+ 
+   Future<MySqlConnection> createConnection(
       String host, String user, String password, String database,
       [int port = 3306]) async {
     var settings = ConnectionSettings(
@@ -17,7 +20,4 @@ class EasyWay {
     connection = await MySqlConnection.connect(settings);
     return connection;
   }
-  
-
 }
-
